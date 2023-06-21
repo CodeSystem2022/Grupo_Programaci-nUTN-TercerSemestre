@@ -110,6 +110,8 @@ class Menu(tk.Frame):
             """)
         elif opcion ==6:
             messagebox.showinfo("No hay avisos importantes.")
+        elif opcion==7:
+            messagebox.showinfo("Gracias por utilizar Sysacad")
         else:
             messagebox.showwarning("error", "ingrese una opción válida")
 
