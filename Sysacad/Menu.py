@@ -51,71 +51,71 @@ class Menu(tk.Frame):
 
         if opcion == 1:
             messagebox.showinfo('Materias del plan\n', """"
-                                        Año    |   Dic.    |         Materia        | Se cursa | Se rinde  |
-                                             1    |    1c      |Matemática          |   Si          |    Si          |
-                                             1    |    1c      |Programación 1   |   Si          |    Si          |
-                                             1    |    1c      |Proc de Datos      |   Si          |    Si          |
-                                             1    |    1c      |Matemática          |   Si          |    Si          |
-                                             1    |    1c      |Ingles 1                |   Si          |    Si          |
-                                             1    |    1c      |Lab comp 1          |   Si          |    Si          |
-                                             1    |    2c      |Programación 2   |   Si          |    Si         |
-                                             1    |    2c      |Arq y Sist Op        |   Si          |    Si         |
-                                             1    |    2c      |Estadística            |   Si          |    Si         |
-                                             1    |    2c      |Ingles 2                 |   Si          |    Si        |
-                                             1    |    2c      |Lab comp 2           |   Si          |    Si        |
-                                             1    |    2c      |Met de la inv        |   Si          |    Si        |
+            Año    |   Dic.    |         Materia        | Se cursa | Se rinde  |
+                 1    |    1c      |Matemática          |   Si          |    Si          |
+                 1    |    1c      |Programación 1   |   Si          |    Si          |
+                 1    |    1c      |Proc de Datos      |   Si          |    Si          |
+                 1    |    1c      |Matemática          |   Si          |    Si          |
+                 1    |    1c      |Ingles 1                |   Si          |    Si          |
+                 1    |    1c      |Lab comp 1          |   Si          |    Si          |
+                 1    |    2c      |Programación 2   |   Si          |    Si         |
+                 1    |    2c      |Arq y Sist Op        |   Si          |    Si         |
+                 1    |    2c      |Estadística            |   Si          |    Si         |
+                 1    |    2c      |Ingles 2                 |   Si          |    Si        |
+                 1    |    2c      |Lab comp 2           |   Si          |    Si        |
+                 1    |    2c      |Met de la inv        |   Si          |    Si        |
                                         """)
 
         elif opcion == 2:
             messagebox.showinfo('Estado Académico\n', """"
                                           Año    |         Materia        | Estado | 
-                                             1    |Matemática****        |cursa     |
-                                             1    |Programación 1        |cursa     |
-                                             1    |Proc de Datos*         |cursa     |
-                                             1    |Matemática****        |cursa     |
-                                             1    |Ingles 1******           |cursa     |
-                                             1    |Lab comp 1****        |cursa     |
-                                             1    |Programación 2       |cursa     |
-                                             1    |Arq y Sist Op*          |cursa     |
-                                             1    |Estadística***           |cursa     |
-                                             1    |Ingles 2******           |cursa     |
-                                             1    |Lab comp 2****        |cursa     |
-                                             1    |Met de la inv*          |cursa     |
+                                             1      |Matemática****    |cursa    |
+                                             1      |Programación 1    |cursa    |
+                                             1      |Proc de Datos*     |cursa    |
+                                             1      |Matemática****    |cursa    |
+                                             1      |Ingles 1******       |cursa    |
+                                             1      |Lab comp 1****    |cursa    |
+                                             1      |Programación 2   |cursa    |
+                                             1      |Arq y Sist Op*      |cursa    |
+                                             1      |Estadística***       |cursa    |
+                                             1      |Ingles 2******       |cursa    |
+                                             1      |Lab comp 2****    |cursa    |
+                                             1      |Met de la inv*      |cursa    |
                                           """)
 
         elif opcion == 3:
             messagebox.showinfo("Próximos exámenes: 2do semestre julio/2023")
         elif opcion == 4:
             messagebox.showinfo('Correlatividad Cursar\n', """"
-                                        Año    |         Materia        | Correlatividad |
-                                            1     |Matemática****    |puede curar     |
-                                             1    |Programación 1    |puede curar     |
-                                             1    |Proc de Datos*     |puede curar     |
-                                             1    |Matemática****    |puede curar     |
-                                             1    |Ingles 1******       |puede curar     |
-                                             1    |Lab comp 1****    |puede curar     |
-                                             1    |Programación 2   |puede curar     |
-                                             1    |Arq y Sist Op*      |puede curar     |
-                                             1    |Estadística***       |puede curar     |
-                                             1    |Ingles 2******       |puede curar     |
-                                             1    |Lab comp 2****    |puede curar     |
-                                             1    |Met de la inv*       |puede curar     |
+            Año    |         Materia        | Correlatividad  |
+                1     |Matemática****    |  Puede cursar   |
+                1     |Programación 1    |  Puede cursar   |
+                1     |Proc de Datos*     |  Puede cursar   |
+                1     |Matemática****    |  Puede cursar   |
+                1     |Ingles 1******       |  Puede cursar   |
+                1     |Lab comp 1****    |  Puede cursar   |
+                1     |Programación 2   |  Puede cursar   |
+                1     |Arq y Sist Op*      |  Puede cursar   |
+                1     |Estadística***       |  Puede cursar   |
+                1     |Ingles 2******       |  Puede cursar   |
+                1     |Lab comp 2****    |  Puede cursar   |
+                1     |Met de la inv*       |  Puede cursar   |
                                         """)
         elif opcion == 5:
             messagebox.showinfo('Correlatividad Rendir\n', """"
-                                        Año    |         Materia        | Correlatividad |
-                                             1    |Matemática****    |regular     |
-                                             1    |Programación 1    |regular     |
-                                             1    |Proc de Datos*     |regular     |
-                                             1    |Matemática****    |regular     |
-                                             1    |Ingles 1******       |regular     |
-                                             1    |Lab comp 1****    |regular     |
-                                             1    |Programación 2   |regular     |
-                                             1    |Arq y Sist Op*      |regular     |
-                                             1    |Estadística***       |regular     |
-                                             1    |Ingles 2******       |regular     |
-                                             1    |Lab comp 2****    |regular     |
-                                             1    |Met de la inv*       |regular     |
+            Año    |         Materia        | Correlatividad |
+                 1    |Matemática****    |     Regular     |
+                 1    |Programación 1    |     Regular     |
+                 1    |Proc de Datos*     |     Regular     |
+                 1    |Matemática****    |     Regular     |
+                 1    |Ingles 1******       |     Regular     |
+                 1    |Lab comp 1****    |     Regular     |
+                 1    |Programación 2   |     Regular     |
+                 1    |Arq y Sist Op*      |     Regular     |
+                 1    |Estadística***       |     Regular     |
+                 1    |Ingles 2******       |     Regular     |
+                 1    |Lab comp 2****    |     Regular     |
+                 1    |Met de la inv*       |     Regular     |
                                         """)
         elif opcion == 6:
             messagebox.showinfo("No hay avisos importantes.")
